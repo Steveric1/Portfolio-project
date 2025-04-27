@@ -1,12 +1,10 @@
-
-import React from 'react';
-import { Github, Linkedin, Mail, ArrowUp } from 'lucide-react';
+import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
 
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
 
@@ -19,11 +17,11 @@ const Footer = () => {
               Eric.Dev
             </a>
             <p className="text-sm text-muted-foreground mt-2 max-w-md">
-              Specialized in backend engineering, data science, and DevOps solutions.
-              Let's collaborate on your next project.
+              Specialized in backend engineering, data science, and DevOps
+              solutions. Let's collaborate on your next project.
             </p>
           </div>
-          
+
           <div className="flex flex-col items-center md:items-end">
             <div className="flex space-x-4 mb-4">
               <a
@@ -52,7 +50,7 @@ const Footer = () => {
                 <Mail size={20} />
               </a>
             </div>
-            
+
             <button
               onClick={scrollToTop}
               className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
@@ -63,17 +61,23 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        
+
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Eric.Dev. All rights reserved.
+            © {new Date().getFullYear()} Eric.Dev | All rights reserved.
           </p>
-          
+
           <div className="flex space-x-6 mt-4 md:mt-0">
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a
+              href="#"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
               Privacy Policy
             </a>
-            <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a
+              href="#"
+              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
               Terms of Service
             </a>
           </div>
