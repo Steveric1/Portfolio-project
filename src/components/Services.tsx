@@ -39,7 +39,7 @@ const Services = () => {
       title: "Backend Engineering",
       description: "I design and develop robust, scalable backend systems that power modern applications. My focus is on creating secure, efficient, and maintainable codebases.",
       icon: Code,
-      technologies: ["Python", "Node.js", "Express.js", "PostgreSQL", "MySql", "MongoDB", "Redis", "RESTful APIs", "FastApi"],
+      technologies: ["Python", "JavaScript", "Node.js", "Express.js", "NestJs", "PostgreSQL", "MySql", "MongoDB", "Redis", "RESTful APIs", "FastApi", "Django", "Flask", "RabbitMQ", "Celery", "TypeScript"],
       colorClass: "tech-teal",
       iconColorClass: "tech-teal"
     },
