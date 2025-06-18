@@ -75,14 +75,14 @@ const Projects = () => {
       githubUrl: "https://github.com/Steveric1/AirBnB_clone_v4",
       category: "backend"
     },
-    {
-      title: "Financial Data Pipeline",
-      description: "Automated data pipeline for processing and analyzing financial transactions with real-time insights.",
-      tags: ["Python", "Apache Kafka", "PostgreSQL", "AWS", "Pandas"],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com/steveric1",
-      category: "data"
-    },
+    // {
+    //   title: "Financial Data Pipeline",
+    //   description: "Automated data pipeline for processing and analyzing financial transactions with real-time insights.",
+    //   tags: ["Python", "Apache Kafka", "PostgreSQL", "AWS", "Pandas"],
+    //   image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
+    //   githubUrl: "https://github.com/steveric1",
+    //   category: "data"
+    // },
     {
       title: "CI/CD Infrastructure",
       description: "Complete CI/CD infrastructure for a SaaS product, including automated testing, deployment, and monitoring.",
@@ -100,15 +100,15 @@ const Projects = () => {
       githubUrl: "https://github.com",
       category: "devops"
     },
-    {
-      title: "Predictive Maintenance ML",
-      description: "Machine learning system for predictive maintenance in manufacturing, reducing downtime by 35%.",
-      tags: ["Python", "TensorFlow", "Scikit-learn", "Time Series", "IoT"],
-      image: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
-      githubUrl: "https://github.com",
-      // liveUrl: "https://example.com",
-      category: "data"
-    },
+    // {
+    //   title: "Predictive Maintenance ML",
+    //   description: "Machine learning system for predictive maintenance in manufacturing, reducing downtime by 35%.",
+    //   tags: ["Python", "TensorFlow", "Scikit-learn", "Time Series", "IoT"],
+    //   image: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80",
+    //   githubUrl: "https://github.com",
+    //   // liveUrl: "https://example.com",
+    //   category: "data"
+    // },
     {
       title: "Socks App – Scalable Web & Mobile Deployment",
       description: "Custom Kubernetes autoscaling solution for optimized resource utilization in cloud environments.",
@@ -149,13 +149,13 @@ const Projects = () => {
             >
               Backend
             </Button>
-            <Button
+            {/* <Button
               variant={activeCategory === 'data' ? 'default' : 'ghost'}
               className="rounded-md"
               onClick={() => setActiveCategory('data')}
             >
               Data Science
-            </Button>
+            </Button> */}
             <Button
               variant={activeCategory === 'devops' ? 'default' : 'ghost'}
               className="rounded-md"

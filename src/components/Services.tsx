@@ -47,7 +47,7 @@ const Services = () => {
       title: "Data Science",
       description: "I transform raw data into actionable insights through machine learning models, data pipelines, and analytics solutions that help businesses make informed decisions.",
       icon: Database,
-      technologies: ["Python", "SQL", "Pandas", "Numpy", "TensorFlow", "PyTorch", "Scikit-learn", "Matplotlib"],
+      technologies: ["Python", "SQL", "Pandas", "Scikit-learn", "Matplotlib"],
       colorClass: "tech-blue",
       iconColorClass: "tech-blue"
     },

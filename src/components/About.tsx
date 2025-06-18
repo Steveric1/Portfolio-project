@@ -46,18 +46,18 @@ const About = () => {
       ]
     },
     {
-      title: "Data Science Engineer",
+      title: "AI Trainer (RLHF & Agentic AI)",
       company: "Turing Developer",
-      period: "2024 - 2025",
+      period: "Sep 2024 – May 2025",
       achievements: [
-        " Applied Reinforcement Learning from Human Feedback (RLHF) techniques to train and fine-tune machine learning models, optimizing performance based on human-labeled data and user preferences.",
-        "Collaborated with cross-functional teams to design, implement, and validate RLHF-driven models, enhancing system accuracy and user engagement.",
+        "Delivered high-quality human feedback used in Reinforcement Learning from Human Feedback (RLHF) pipelines to refine LLM behavior.",
+        "Collaborated on fine-tuning large language models to improve their reasoning, coherence, and user alignment, ensuring safer and more helpful AI systems.",
       ]
     },
     {
-      title: "DevOps Engineer",
-      company: "AltSchool Africa",
-      period: "2022 - 2024",
+      title: "Backend & DevOps Engineer",
+      company: "DigitalFortitude Solution",
+      period: "Dec 2023 – Sep 2024",
       achievements: [
         "Automated deployment process, reducing release time from days to hours",
         "Designed and implemented CI/CD pipelines using Jenkins and Docker",
@@ -96,7 +96,7 @@ const About = () => {
 
             <div className="mt-8 flex flex-wrap gap-4">
               <Button asChild className="gap-2">
-                <a href="https://drive.google.com/file/d/1FtMssglGaUxHhqfB0P9eqVzc_3n2obZg/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/1hD7rJ0U0O1PaaLS0NTOrl7sNqYd5Fsua/view?usp=sharing">
                   <Download size={16} />
                   Download Resume
                 </a>
